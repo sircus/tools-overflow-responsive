@@ -1,0 +1,46 @@
+/*
+ * sircus-tools-oveflow-responsive
+ ================================================== */
+
+@media (--g-viewport-sm) {
+  .t-sm-overflowScroll  { overflow: scroll !important; }
+  .t-sm-overflow    { overflow: auto !important; }
+  .t-sm-overflowHidden  { overflow: hidden !important; }
+  .t-sm-overflowX {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+  .t-sm-overflowY {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+}
+
+@media (--g-viewport-md) {
+  .t-md-overflowScroll  { overflow: scroll !important; }
+  .t-md-overflow    { overflow: auto !important; }
+  .t-md-overflowHidden  { overflow: hidden !important; }
+  .t-md-overflowX {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+  .t-md-overflowY {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+}
+
+
+@media (--g-viewport-lg) {
+  .t-lg-overflowScroll  { overflow: scroll !important; }
+  .t-lg-overflow    { overflow: auto !important; }
+  .t-lg-overflowHidden  { overflow: hidden !important; }
+  .t-lg-overflowX {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+  .t-lg-overflowY {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+}
