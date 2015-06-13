@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-overflow-responsive
+$ npm install sircus-tools-overflow-responsive && npm install sircus-global-proprety
 ```
 
 ## Usage
@@ -23,6 +23,8 @@ $ npm install sircus-tools-overflow-responsive
 input.css
 ```css
 @import "sircus-tools-overflow-responsive";
+@import "sircus-global-property";
+@import "./css/your-theme-property";
 ```
 
 > use sass:
@@ -30,6 +32,8 @@ input.css
 input.scss
 ```css
 @import "node_modules/sircus-tools-overflow-responsive/converted";
+@import "./scss/your-theme-property";
+@import "node_modules/sircus-tools-align-responsive/converted";
 ```
 
 
