@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-overflow-responsive && npm install sircus-global-proprety
+$ npm install sircus-tools-overflow-responsive sircus-global-proprety
 ```
 
 ## Usage
