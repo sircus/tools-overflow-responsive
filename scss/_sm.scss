@@ -1,0 +1,24 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+ * sircus-tools-oveflow-responsive(sm)
+ ================================================== */
+
+@media #{$g-viewport-sm} {
+  .t-sm-overflowScroll  { overflow: scroll !important; }
+  .t-sm-overflow    { overflow: auto !important; }
+  .t-sm-overflowHidden  { overflow: hidden !important; }
+  .t-sm-overflowX {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+  .t-sm-overflowY {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+}
