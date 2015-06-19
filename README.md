@@ -2,8 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-overflow-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-overflow-responsive)
 
-> A responsive overflow tools Module of Sircus.
-
 ## Dependencies
 - [sircus-global-property](https://github.com/sircus/global-property)
 
