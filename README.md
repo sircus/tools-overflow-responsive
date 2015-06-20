@@ -22,9 +22,9 @@ input.css
 ```css
 @import "sircus-tools-overflow-responsive";
 /*
-@import "sircus-tools-overflow-responsive/lib/sm";
-@import "sircus-tools-overflow-responsive/lib/md";
-@import "sircus-tools-overflow-responsive/lib/lg";
+@import "sircus-tools-overflow-responsive/lib/sm-overflow.css";
+@import "sircus-tools-overflow-responsive/lib/md-overflow.css";
+@import "sircus-tools-overflow-responsive/lib/lg-overflow.css";
 */
 @import "sircus-global-property";
 ```
@@ -35,9 +35,9 @@ input.scss
 ```scss
 @import "./node_modules/sircus-global-property/converted";
 @import "./node_modules/sircus-tools-overflow-responsive/converted";
-// @import "./node_modules/sircus-tools-overflow-responsive/scss/sm";
-// @import "./node_modules/sircus-tools-overflow-responsive/scss/md";
-// @import "./node_modules/sircus-tools-overflow-responsive/scss/lg";
+// @import "./node_modules/sircus-tools-overflow-responsive/scss/sm-overflow";
+// @import "./node_modules/sircus-tools-overflow-responsive/scss/md-overflow";
+// @import "./node_modules/sircus-tools-overflow-responsive/scss/lg-overflow";
 ```
 
 
