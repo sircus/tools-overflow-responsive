@@ -1,18 +1,17 @@
-
 /*
  * sircus-tools-oveflow-responsive(md)
  ================================================== */
 
 @media #{$g-viewport-md} {
-  .t-md-overflowScroll  { overflow: scroll !important; }
-  .t-md-overflow    { overflow: auto !important; }
-  .t-md-overflowHidden  { overflow: hidden !important; }
+  .t-md-overflowScroll  { overflow: scroll; }
+  .t-md-overflow    { overflow: auto; }
+  .t-md-overflowHidden  { overflow: hidden; }
   .t-md-overflowX {
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
   .t-md-overflowY {
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }
