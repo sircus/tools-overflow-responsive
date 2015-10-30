@@ -2,16 +2,13 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-tools-overflow-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-overflow-responsive)
 
-## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
 
-
-## Installation
+## Install
 
 > npm:
 
 ```bash
-$ npm install sircus-tools-overflow-responsive sircus-global-property
+$ npm install sircus-tools-overflow-responsive sircus-variables
 ```
 
 ## Usage
@@ -21,23 +18,15 @@ $ npm install sircus-tools-overflow-responsive sircus-global-property
 input.css
 ```css
 @import "sircus-tools-overflow-responsive";
-/*
-@import "sircus-tools-overflow-responsive/lib/sm-overflow.css";
-@import "sircus-tools-overflow-responsive/lib/md-overflow.css";
-@import "sircus-tools-overflow-responsive/lib/lg-overflow.css";
-*/
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
-@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-variables/converted";
 @import "./node_modules/sircus-tools-overflow-responsive/converted";
-// @import "./node_modules/sircus-tools-overflow-responsive/scss/sm-overflow";
-// @import "./node_modules/sircus-tools-overflow-responsive/scss/md-overflow";
-// @import "./node_modules/sircus-tools-overflow-responsive/scss/lg-overflow";
 ```
 
 

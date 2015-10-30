@@ -1,17 +1,17 @@
 {
   "name": "sircus-tools-overflow-responsive",
-  "description": "Responsive css overflow tools module for Sircus.",
+  "description": "Tools Module For Responsive CSS Overflow Box.",
   "version": "0.0.3",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",
